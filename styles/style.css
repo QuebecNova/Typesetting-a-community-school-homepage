@@ -1,0 +1,134 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  html {
+    font-family: 'fira_sansmedium';
+    font-size: 17.5px;
+    letter-spacing: 1.1px;
+    word-spacing: 1.3px;
+  }
+
+  /* General text setup */
+
+  h1 {
+    font-family: 'kaushan_scriptregular';
+    font-size: 2.5em;
+    text-align:center;
+  }
+  h2 {
+    font-family: 'fira_sansbold';
+  }
+  p, a, ul, ol {
+    line-height: 1.4em;
+  }
+  section h2 + p {
+    padding-top: 20px;
+  }
+  ul {
+    list-style-type: decimal;
+  }
+
+  /* Links */
+
+  a[href*="http"] {
+    background: url(https://mdn.github.io/learning-area/css/styling-text/typesetting-a-homepage-start/external-link-52.png) no-repeat 100% 0;
+    background-size: 12px 12px;
+    padding-right: 15px;
+  }
+  a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 1px;
+    border-bottom: 1px solid rgb(216, 52, 11);
+  }
+  a:link {
+    color: rgb(216, 52, 11);
+  }
+  a:visited {
+    color: rgb(105, 9, 9);
+  }
+  a:focus {
+    background-color: rgb(255, 204, 170);
+    border-bottom: 0px;
+  }
+  a:hover {
+    background-color: rgb(255, 204, 170);
+    border-bottom: 0px;
+  }
+  a:active {
+    background-color: rgb(219, 107, 88);
+  }
+
+  /* Right nav buttons */
+
+  nav ul {
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+  }
+  nav a {
+    outline: none;
+    text-decoration: none;
+    border: 0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom:40px;
+    line-height: 80px;
+    background-color: rgb(247, 240, 235);
+    border: 3px solid rgb(105, 9, 9);
+  }
+  nav a:link, nav a:visited, nav a:focus {
+    color: rgb(216, 52, 11);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-family: 'fira_sansitalic';
+    font-size: 1.2em;
+  }
+  nav a:hover {
+    border: 3px solid rgb(105, 9, 9);
+    background-color: rgb(224, 178, 156);
+    text-shadow: 1px 1px rgb(235, 231, 231);
+  }
