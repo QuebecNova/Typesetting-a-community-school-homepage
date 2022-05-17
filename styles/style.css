@@ -64,9 +64,6 @@
   p, a, ul, ol {
     line-height: 1.4em;
   }
-  section h2 + p {
-    padding-top: 20px;
-  }
   section h2 + p::first-letter {
     padding-left: 20px;
   }
