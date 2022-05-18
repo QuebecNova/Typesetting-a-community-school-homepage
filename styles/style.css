@@ -64,8 +64,8 @@
   p, a, ul, ol {
     line-height: 1.4em;
   }
-  section h2 + p::first-letter {
-    padding-left: 20px;
+  section h2 + p {
+    text-indent: 20px;
   }
   ul {
     list-style-type: decimal;
